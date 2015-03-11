@@ -22,4 +22,5 @@ Volumes
 
     /opt/elasticsearch/config
     /opt/elasticsearch/data
+    /opt/elasticsearch/logs
 
