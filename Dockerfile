@@ -20,7 +20,7 @@ RUN rm -rf /tmp/elasticsearch.tar.gz
 ADD start_elasticsearch.sh /usr/local/bin/start_elasticsearch.sh
 RUN chmod +x /usr/local/bin/start_elasticsearch.sh
 
-VOLUME ["/opt/elasticsearch/config", "/opt/elasticsearch/data"]
+VOLUME ["/opt/elasticsearch/config", "/opt/elasticsearch/data", "/opt/elasticsearch/logs"]
 
 EXPOSE 9200
 EXPOSE 9300
