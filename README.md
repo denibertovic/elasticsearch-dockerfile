@@ -1,5 +1,8 @@
 # Elasticsearch Dockerfile
 
+NOTE: If you want to run the whole ELK stack checkout: https://github.com/denibertovic/elk-stack-docker
+
+
 Pull from the Hub:
 
     docker pull denibertovic/elasticsearch
